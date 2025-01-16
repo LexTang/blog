@@ -42,7 +42,7 @@ jobs:
           # 部署到 gh-pages 分支
           target_branch: lex-pages
           # 部署目录为 VuePress 的默认输出目录
-          build_dir: .vuepress/dist
+          build_dir: build
         env:
           # GitHub 提供的身份验证令牌
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
